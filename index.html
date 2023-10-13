@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    
+
+</head>
+<body>
+    <div class='cx-principal'>
+        <section class="barra-lateral">
+          <div class="icon">
+            <button>
+              <img src="img/solar_planet.svg" alt='Logo' />
+            </button>
+          </div>
+          <div class="cx-botoes">
+          
+            <button onclick="toggleSection('home')" class='item-menu ativo'  >
+              <img src="img/home.svg" alt='Home' />
+            </button>
+  
+            <button onclick="toggleSection('projetos')" class='item-menu' >
+              <img src="img/projetos.svg" alt='Projetos' />
+            </button>
+  
+            <button onclick="toggleSection('conhecimento')" class='item-menu' >
+              <img src="img/conhecimento.svg" alt='Livro' />
+            </button>
+  
+            <button onclick="toggleSection('contato')" class='item-menu'>
+              <img src="img/contato.svg" alt='Telefone' />
+            </button>
+  
+            <button id="changeColorButton" onclick="toggleBackgroundColor()">
+              <img id="icon" src="img/sol.svg" alt='Sol' />
+            </button>
+          </div>
+        </section>
+  
+        <div class="content">
+          <section id="home" class="">
+            <div>
+              <div class='cx-home'>
+                <div class='img-home'>
+                  <img src="img/foto_perfil.png" alt='Foto'></img>
+                </div>
+                <div class='text-home'>
+                  <p>Olá! Me chamo</p>
+                  <h1>João Vitor <span>Scobin</span></h1>
+                  <p>Sou um desenvolvedor Front-End apaixonado por criar aplicações e experiencias interativas na web.</p>
+                  <div class='icons-home'>
+                    <button>
+                      <a href='https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin' target='_blank' rel='noreferrer'>
+                        <img src="img/linkedin.svg" alt='LinkedIn'></img>
+                      </a>
+                    </button>
+                    <button>
+                      <a href='https://github.com/Scobin12' target='_blank' rel='noreferrer'>
+                        <img src="img/github.svg" alt='GitHub'></img>
+                      </a>
+                    </button>
+                    <button>
+                    <a href='Curriculo.pdf'download="Currículo João Vitor Scobin">
+                      <img src="img/cv.svg" alt='Currículo' rel='noreferrer'></img>
+                    </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section id="projetos" class="hidden">
+            <p>Esta é a section projetos.</p>
+          </section>
+        
+          <section id="conhecimento" class="hidden">
+            <div>
+              <h1>Conhecimentos</h1>
+              <div class="text-conhecimento">
+                <p>&lt;!-- passe o mouse no card --&gt;</p>
+              </div>
+            </div>
+            <div class="cards-conhecimento">
+
+              <div>
+                <img src="" alt="HTML">
+              </div>
+
+              <div>
+                <img src="" alt="CSS">
+              </div>
+
+              <div>
+                <img src="" alt="JS">
+              </div>
+
+              <div>
+                <img src="" alt="React">
+              </div>
+
+              <div>
+                <img src="" alt="git">
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+              <div>
+                <p>Estudando</p>
+              </div>
+
+            </div>
+          </section>
+
+
+          <section id="contato" class="hidden">
+            <div>
+              <h1>Entre em contato:</h1>
+              <div class='cx-contato'>
+                <div class='text-contato'>
+                  <p>Interessou-se pelo meu portfólio? <br/>
+                  Fico muito feliz em saber! </p>
+                  <p>Se você deseja saber mais sobre meu trabalho ou discutir oportunidades de colaboração, não hesite em entrar em contato. </p>
+                  <p>Estou sempre aberto a novas conexões e projetos emocionantes. </p>
+                  <div class='icons-home'>
+                    <button>
+                      <a href='https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin' target='_blank' rel='noreferrer'>
+                        <img src="img/linkedin.svg" alt='LinkedIn'></img>
+                      </a>
+                    </button>
+                    <button>
+                      <a href='https://github.com/Scobin12' target='_blank' rel='noreferrer'>
+                        <img src="img/github.svg" alt='GitHub'></img>
+                      </a>
+                    </button>
+                    <button>
+                    <a href="Curriculo.pdf" download="Currículo João Vitor Scobin">
+                      <img src="img/cv.svg" alt='Currículo' rel='noreferrer'></img>
+                    </a>
+                    </button>
+                  </div>
+                </div>
+        
+                <div class='form'>
+                  <input></input>
+                  <input></input>
+                  <input></input>
+                  <button>Enviar</button>
+                </div>
+                <div class="rodape">
+                  <h4>℗ Todos os direitos reservados - <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin" target="_blank">J.S</a></h4>            
+                </div>
+              </div>  
+            </div>
+          </section>
+        </div>
+    </div>
+
+   <script src="script.js"></script> 
+  
+</body>
+</html>
