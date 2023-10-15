@@ -1,3 +1,4 @@
+//mudando conteudo principal
 function toggleSection(sectionId) {
   const sections = document.querySelectorAll('.content section');
 
@@ -42,3 +43,15 @@ function toggleBackgroundColor() {
     icon.alt = "Sol Icon";
   }
 }
+
+//mudando texto do conhecimento
+function changeText(newText) {
+  const pElement = document.getElementById('changeable-text');
+  pElement.innerText = newText;
+}
+
+function resetText() {
+  const pElement = document.getElementById('changeable-text');
+  pElement.innerText = '<!-- passe o mouse no card para mais informações -->';
+}
+

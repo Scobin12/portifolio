@@ -79,104 +79,114 @@
           </section>
         
           <section id="conhecimento" class="hidden">
-            <div>
-              <h1>Conhecimentos</h1>
+            <div class="conhecimento">
               <div class="text-conhecimento">
-                <p>&lt;!-- passe o mouse no card --&gt;</p>
+                <div class="box-text">
+                  <h1>Conhecimentos</h1>
+                  <div class="text-card">
+                    <p id="changeable-text">&lt;!-- passe o mouse no card para mais informações --&gt;</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="cards-conhecimento">
+              <div class="cards-conhecimento">
+                <div class="box-cards">
+                  <div onmouseover="changeText('HTML é uma linguagem de marcação para criação e estruturação de páginas web.')" onmouseout="resetText()">
+                    <img src="img/html.png" alt="HTML">
+                  </div>
 
-              <div>
-                <img src="" alt="HTML">
+                  <div onmouseover="changeText('CSS é uma linguagem de estilo usada para estilizar e formatar elementos de páginas web.')" onmouseout="resetText()">
+                    <img src="img/css.png" alt="CSS">
+                  </div>
+
+                  <div onmouseover="changeText('JavaScript é uma linguagem de programação para interatividade e dinamismo de páginas web.')" onmouseout="resetText()">
+                    <img src="img/javascript.png" alt="JS">
+                  </div>
+
+                  <div onmouseover="changeText('React é uma biblioteca JavaScript para construir interfaces de usuário interativas e eficientes.')" onmouseout="resetText()">
+                    <img src="img/reactjs.png" alt="React">
+                  </div>
+
+                  <div onmouseover="changeText('Git é um sistema de controle de versões para rastrear e gerenciar alterações no código fonte durante o desenvolvimento de projetos.')" onmouseout="resetText()">
+                    <img src="img/git.png" alt="git">
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+
+                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                    <p>Estudando</p>
+                  </div>
+                </div>
               </div>
-
-              <div>
-                <img src="" alt="CSS">
-              </div>
-
-              <div>
-                <img src="" alt="JS">
-              </div>
-
-              <div>
-                <img src="" alt="React">
-              </div>
-
-              <div>
-                <img src="" alt="git">
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
-              <div>
-                <p>Estudando</p>
-              </div>
-
             </div>
           </section>
 
 
           <section id="contato" class="hidden">
-            <div>
-              <h1>Entre em contato:</h1>
-              <div class='cx-contato'>
-                <div class='text-contato'>
-                  <p>Interessou-se pelo meu portfólio? <br/>
-                  Fico muito feliz em saber! </p>
-                  <p>Se você deseja saber mais sobre meu trabalho ou discutir oportunidades de colaboração, não hesite em entrar em contato. </p>
-                  <p>Estou sempre aberto a novas conexões e projetos emocionantes. </p>
-                  <div class='icons-home'>
-                    <button>
-                      <a href='https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin' target='_blank' rel='noreferrer'>
-                        <img src="img/linkedin.svg" alt='LinkedIn'></img>
+            <div class="contato">
+              <h1>Entre em contato</h1>
+                <div class='cx-contato'>
+                  <div class='text-contato'>
+                    <div class="cx-texto">
+                      <p>Interessou-se pelo meu portfólio? <br/>
+                      Fico muito feliz em saber! </p>
+                      <p>Se você deseja saber mais sobre meu trabalho ou discutir oportunidades de colaboração, não hesite em entrar em contato. </p>
+                      <p>Estou sempre aberto a novas conexões e projetos emocionantes. </p>
+                    </div>
+                    <div class='icons-home'>
+                      <button>
+                        <a href='https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin' target='_blank' rel='noreferrer'>
+                          <img src="img/linkedin.svg" alt='LinkedIn'></img>
+                        </a>
+                      </button>
+                      <button>
+                        <a href='https://github.com/Scobin12' target='_blank' rel='noreferrer'>
+                          <img src="img/github.svg" alt='GitHub'></img>
+                        </a>
+                      </button>
+                      <button>
+                      <a href="Curriculo.pdf" download="Currículo João Vitor Scobin">
+                        <img src="img/cv.svg" alt='Currículo' rel='noreferrer'></img>
                       </a>
-                    </button>
-                    <button>
-                      <a href='https://github.com/Scobin12' target='_blank' rel='noreferrer'>
-                        <img src="img/github.svg" alt='GitHub'></img>
-                      </a>
-                    </button>
-                    <button>
-                    <a href="Curriculo.pdf" download="Currículo João Vitor Scobin">
-                      <img src="img/cv.svg" alt='Currículo' rel='noreferrer'></img>
-                    </a>
-                    </button>
+                      </button>
+                    </div>
                   </div>
-                </div>
-        
-                <div class='form'>
-                  <input></input>
-                  <input></input>
-                  <input></input>
-                  <button>Enviar</button>
-                </div>
+          
+                  <form action="">
+                    <input type="email" placeholder="E-mail" class="email"></input>
+                    <input type="text" placeholder="Assunto" class="assunto"></input>
+                    <input type="text" placeholder="Digite sua mensagem..." class="mensagem"></input>
+                    <div class="cx-bt">
+                      <button>Enviar</button>
+                    </div>
+                  </form>      
+                </div> 
+
                 <div class="rodape">
                   <h4>℗ Todos os direitos reservados - <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin" target="_blank">J.S</a></h4>            
                 </div>
-              </div>  
+
             </div>
           </section>
         </div>

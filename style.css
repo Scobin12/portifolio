@@ -83,7 +83,7 @@ body {
   
   .text-home p{
     width: 561px;
-    color: #ACACAC;
+    color: #626F7F;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
@@ -141,3 +141,191 @@ body {
 
   /* Class Página Projetos*/
 
+.conhecimento{
+  width: 92.5vw;
+  height: 99vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-conhecimento, .cards-conhecimento{
+  width: 50%;
+}
+
+.text-conhecimento{
+  display: grid;
+  justify-items: center;
+}
+
+.text-conhecimento h1{
+  margin-top: 22.4vh;
+  color: #007871;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.text-card{
+  margin-top: -30px;
+  display: flex;
+  width: 404px;
+  height: 259px;
+  flex-shrink: 0;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cards-conhecimento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 125px);
+  gap: 20px;
+}
+
+.box-cards div{
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background: #e9e9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-cards div:hover{
+  border: 3px solid #007871;
+  cursor: pointer;
+}
+
+/* ------------ pagina de contato ---------- */
+.contato{
+  border: solid transparent;
+  width: 92.5vw;
+  height: 99vh;
+}
+
+.contato h1{  
+  color: #007871;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cx-contato{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-contato, form{
+  width: 50%;
+  display: grid;
+  justify-content: center;
+}
+
+form{
+  height: 60vh;
+}
+
+.cx-texto{
+  width: 455px;
+  height: 295px;
+  flex-shrink: 0;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.email, .assunto{
+  padding-left: 10px;
+  background-color: none;
+  width: 500px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid #007871;
+  background: none;
+}
+
+.mensagem{
+  padding-top: 10px;
+  vertical-align: top;
+  padding-left: 10px;
+  width: 500px;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid #007871;
+  background: none;
+}
+
+.cx-bt{
+  display: flex;
+  justify-content: end;
+}
+
+form button{
+  width: 190px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 3px solid #007871;
+  background: none;
+  color: #262626;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+form button:hover{
+  background-color: #007871;
+  color: #FFF;
+}
+
+.rodape{
+  margin-bottom: 10px;
+  margin-right: 20px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.rodape h4{
+  text-align: end;
+  color: #626F7F;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rodape a{
+  text-decoration: none;
+  color: #626F7F;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
