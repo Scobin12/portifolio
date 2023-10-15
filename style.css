@@ -255,7 +255,7 @@ form{
   line-height: normal;
 }
 
-.email, .assunto{
+.nome, .email{
   padding-left: 10px;
   background-color: none;
   width: 500px;
@@ -278,6 +278,38 @@ form{
   background: none;
 }
 
+input{
+  resize: none;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea{
+  resize: none;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+textarea:focus, input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  resize: none;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .cx-bt{
   display: flex;
   justify-content: end;
@@ -296,6 +328,7 @@ form button{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 
 form button:hover{
