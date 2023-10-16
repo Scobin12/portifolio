@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
     box-sizing: border-box;
     background-color: #FFFFFF;
   }  
@@ -139,7 +140,33 @@ body {
     background: #d4d4d4;
   }
 
-  /* Class Página Projetos*/
+/* --------- Class Página Projetos -------- */
+.cx-projetos{
+  width: 92.5vw;
+  height: 99vh;
+}
+
+
+.cx-projetos h1{
+  color: #007871;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cx-slider{
+  height: 45vh;
+}
+
+.cx-texto-projeto{
+  padding-left: 20px;
+  height: 25vh;
+}
+
+/* ------------ Class Página Conhecimento -------- */
 
 .conhecimento{
   width: 92.5vw;

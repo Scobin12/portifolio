@@ -55,3 +55,28 @@ function resetText() {
   pElement.innerText = '<!-- passe o mouse no card para mais informações -->';
 }
 
+
+
+let currentIndex = 0;
+
+function updateSlider() {
+  const slider = document.getElementById('slider');
+  const slideWidth = document.querySelector('.slide').offsetWidth;
+  const translateValue = -slideWidth * currentIndex;
+  slider.style.transform = 'translateX(' + translateValue + 'px)';
+}
+
+function prevSlide() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    updateSlider();
+  }
+}
+
+function nextSlide() {
+  const slides = document.querySelectorAll('.slide');
+  if (currentIndex < slides.length - 3) {
+    currentIndex++;
+    updateSlider();
+  }
+}
