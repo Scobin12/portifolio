@@ -141,13 +141,12 @@ body {
   }
 
 /* --------- Class Página Projetos -------- */
-.cx-projetos{
+.div-projetos{
   width: 92.5vw;
   height: 99vh;
 }
 
-
-.cx-projetos h1{
+.div-projetos h1{
   color: #007871;
   text-align: center;
   font-family: Inter;
@@ -157,14 +156,88 @@ body {
   line-height: normal;
 }
 
-.cx-slider{
-  height: 45vh;
+.cx-projetos{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cx-texto-projeto{
-  padding-left: 20px;
-  height: 25vh;
+.slider {
+  width: 1110px;
+  overflow: hidden;
 }
+
+.slider-content{
+  width: 8000px;
+  height: 520px;
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.card {
+  width: 530px;
+  margin: 10px;
+  height: 500px;
+  border: solid #007871 3px;
+  border-radius: 20px;
+}
+
+.card img{
+  width: 510px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.card h3{
+  color: #007871;
+  border-bottom: 1px dashed #d4d4d4;
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  line-height: normal;
+  padding-bottom: 10px;
+  margin-bottom: -10px;
+}
+
+.card p{
+  color: #626F7F;
+  font-family: Inter;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  padding: 10px;
+}
+
+.projeto-ft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn{
+  margin: 30px;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;  
+  border: solid 2px #007871;
+}
+
+.btn:hover svg path{
+  stroke: #007871;
+}
+
 
 /* ------------ Class Página Conhecimento -------- */
 
@@ -349,7 +422,7 @@ form button{
   border-radius: 10px;
   border: 3px solid #007871;
   background: none;
-  color: #262626;
+  color: #626F7F;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;

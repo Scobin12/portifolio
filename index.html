@@ -50,7 +50,7 @@
                 </div>
                 <div class='text-home'>
                   <p>Olá! Me chamo</p>
-                  <h1>João Vitor <span>Scobin</span></h1>
+                  <h1 id="nome-titulo">João Vitor <span>Scobin</span></h1>
                   <p>Sou um desenvolvedor Front-End apaixonado por criar aplicações e experiencias interativas na web.</p>
                   <div class='icons-home'>
                     <button>
@@ -76,16 +76,36 @@
 
 
           <section id="projetos" class="hidden">
-            <div class="cx-projetos">
+            <div class="div-projetos">
               <h1>Projetos</h1>
-              <div class="cx-slider">
-                
-              </div>
-              <!--
-              <div class="cx-texto-projeto">
-                <p>&lt;!-- passe o mouse no card para mais informações sobre o projeto --&gt;</p>
-              </div>
-              -->
+              <div class="cx-projetos">
+                <button class="btn" id="prev">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 30 30" fill="none">
+                    <path d="M18.75 22.5L11.25 15L18.75 7.5" stroke="#626F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+    
+                <div class="slider">
+                <div class="slider-content">
+                    <div class="card">
+                      <img src="/img/cartao de visita.png" alt="img cartão de visita scobin">
+                      <h3>Cartão de Visita Scobin</h3>
+                      <p>O cartão de visita digital é uma página web com um design minimalista e atraente, que agrega informações cruciais, como redes sociais, dados de contato, localização do estúdio, entre outros.
+
+                        Ele oferece ao cliente uma visão abrangente do profissional que está buscando, reunindo tudo em um único local para facilitar a busca. </p>
+                    </div>
+
+                    <div class="card projeto-ft">Futuro projeto</div>
+                    <div class="card projeto-ft">Futuro projeto</div>
+                    
+                </div>
+            </div>
+            
+            <button class="btn" id="next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 30 30" fill="none">
+                <path d="M11.25 22.5L18.75 15L11.25 7.5" stroke="#626F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
             </div>
           </section>
         
@@ -101,51 +121,51 @@
               </div>
               <div class="cards-conhecimento">
                 <div class="box-cards">
-                  <div onmouseover="changeText('HTML é uma linguagem de marcação para criação e estruturação de páginas web.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('HTML é uma linguagem de marcação para criação e estruturação de páginas web.')" onmouseout="resetText()">
                     <img src="img/html.png" alt="HTML">
                   </div>
 
-                  <div onmouseover="changeText('CSS é uma linguagem de estilo usada para estilizar e formatar elementos de páginas web.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('CSS é uma linguagem de estilo usada para estilizar e formatar elementos de páginas web.')" onmouseout="resetText()">
                     <img src="img/css.png" alt="CSS">
                   </div>
 
-                  <div onmouseover="changeText('JavaScript é uma linguagem de programação para interatividade e dinamismo de páginas web.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('JavaScript é uma linguagem de programação para interatividade e dinamismo de páginas web.')" onmouseout="resetText()">
                     <img src="img/javascript.png" alt="JS">
                   </div>
 
-                  <div onmouseover="changeText('React é uma biblioteca JavaScript para construir interfaces de usuário interativas e eficientes.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('React é uma biblioteca JavaScript para construir interfaces de usuário interativas e eficientes.')" onmouseout="resetText()">
                     <img src="img/reactjs.png" alt="React">
                   </div>
 
-                  <div onmouseover="changeText('Git é um sistema de controle de versões para rastrear e gerenciar alterações no código fonte durante o desenvolvimento de projetos.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Git é um sistema de controle de versões para rastrear e gerenciar alterações no código fonte durante o desenvolvimento de projetos.')" onmouseout="resetText()">
                     <img src="img/git.png" alt="git">
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
 
-                  <div onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
+                  <div class="cards" onmouseover="changeText('Estou constantemente em um processo de aprendizado, buscando aprimorar minhas habilidades e conhecimento. Sempre que incorporar novas tecnologias ao meu repertório, irei adicionar novos cards.')" onmouseout="resetText()">
                     <p>Estudando</p>
                   </div>
                 </div>
@@ -191,13 +211,13 @@
                     <input type="hidden" name="_next" value="https://portfolio-scobin.netlify.app">
                     
                     <div class="cx-bt">
-                      <button type="submit">Enviar</button>
+                      <button id="bt-color" type="submit">Enviar</button>
                     </div>
                   </form>      
                 </div> 
 
                 <div class="rodape">
-                  <h4>℗ Todos os direitos reservados - <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin" target="_blank">J.S</a></h4>            
+                  <h4 id="rodape">℗ Todos os direitos reservados - <a id="rodape-link" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-scobin" target="_blank">J.S</a></h4>            
                 </div>
 
             </div>
