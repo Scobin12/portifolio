@@ -31,7 +31,6 @@ function toggleBackgroundColor() {
   const body = document.body;
   const titulo = document.getElementById('nome-titulo');
   const rodape = document.getElementById('rodape');
-  const btForm = document.getElementById('br-color');
   const rodapeLink = document.getElementById('rodape-link');
   const icon = document.getElementById('icon');
 
@@ -40,12 +39,12 @@ function toggleBackgroundColor() {
   if (isBlack) {
     body.style.backgroundColor = "#363636";  
     titulo.style.color = "#FFFFFF";
-    rodape.style.color = "#FFFFFF";
-    rodapeLink.style.color = "#FFFFFF";
+    rodape.style.color = "#cccccc";
+    rodapeLink.style.color = "#cccccc";
     icon.src = "img/lua.svg"; 
     icon.alt = "Lua Icon";
   } else {
-    body.style.backgroundColor = "#FFFFFF";  
+    body.style.backgroundColor = "#fff";  
     titulo.style.color = "#363636";
     rodape.style.color = "#363636";
     rodapeLink.style.color = "#363636";
@@ -59,7 +58,7 @@ const paragrafos = document.getElementsByTagName("p");
 // Iterar sobre a coleção de elementos <p>
 for (let i = 0; i < paragrafos.length; i++) {
   if (isBlack) {
-    paragrafos[i].style.color = "#FFFFFF";  
+    paragrafos[i].style.color = "#cccccc";  
   } else {
     paragrafos[i].style.color = "#626F7F";  
   }
