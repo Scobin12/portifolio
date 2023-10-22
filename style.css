@@ -508,8 +508,8 @@ form button:hover{
   .img-home img{
     margin: 0px;
     margin-top: 30px;
-    width: 253px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
   }
 
   .text-home{
@@ -523,7 +523,7 @@ form button:hover{
 
   .icons-home{
     width: 99%;
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: space-evenly;
   }
 }
