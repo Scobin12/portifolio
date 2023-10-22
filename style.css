@@ -521,6 +521,10 @@ form button:hover{
     text-align: center;
   }
 
+  .text-home h1, .text-home h1 span{
+    font-size: 38px;
+  }
+
   .icons-home{
     width: 99%;
     margin-top: 40px;
