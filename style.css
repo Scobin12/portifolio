@@ -462,3 +462,68 @@ form button:hover{
   font-weight: 400;
   line-height: normal;
 }
+
+
+/* mobile */
+@media (max-width: 450px) {
+
+  /*barra lateral*/
+
+  .barra-lateral{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 105px;
+  }
+
+  .icon button{
+    display: none;
+  }
+
+  .cx-botoes{
+    margin-top: 0px;
+    height: 105px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .ativo img{
+    border-bottom: solid #fff 3px;
+    border-right: none;
+    margin-bottom: -3px;
+    margin-right: 0px;
+    border-right: none;
+  }
+
+  /* home */
+
+  .cx-home{
+    flex-direction: column;
+    height: auto;
+    margin-top: 105px;
+    width: 99vw;
+  }
+
+  .img-home img{
+    margin: 0px;
+    margin-top: 30px;
+    width: 253px;
+    height: 253px;
+  }
+
+  .text-home{
+    width: 100%;
+  }
+
+  .text-home p, .text-home h1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .icons-home{
+    width: 99%;
+    margin-top: 60px;
+    justify-content: space-evenly;
+  }
+}
