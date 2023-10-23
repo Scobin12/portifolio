@@ -169,7 +169,7 @@ body {
 }
 
 .slider-content{
-  width: 8000px;
+  width: 1670px;
   height: 520px;
   display: flex;
   transition: transform 0.5s;
@@ -500,38 +500,58 @@ form button:hover{
 
   .cx-home{
     flex-direction: column;
-    height: auto;
-    margin-top: 3rem;
+    height: 90vh;
+    margin-top: 3.6rem;
     width: 99vw;
   }
 
   .img-home img{
     margin: 0rem;
-    margin-top: 2.875rem;
     width: 10.5rem;
     height: 10.5rem;
   }
   
   .text-home p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 90%;
     text-align: center;
     padding: 0 5%;
   }
 
   .text-home h1{
-    margin-bottom: -0.5rem;
     width: 99.5%;
     text-align: center;
   }
 
   .text-home h1, .text-home h1 span{
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .icons-home{
     width: 99%;
     margin-top: 2.5rem;
     justify-content: space-evenly;
+  }
+
+  .icons-home button{
+    background: #d4d4d4;
+  }
+
+
+  /* mobile projetos */
+
+  .div-projetos{
+    flex-direction: column;
+    height: 90vh;
+    margin-top: 3rem;
+    width: 99vw;
+  }
+
+  .cx-projetos{
+    border: solid red;
+  }
+
+  .btn{
+    display: none;
   }
 }
