@@ -473,7 +473,7 @@ form button:hover{
     position: fixed;
     display: flex;
     width: 100vw;
-    height: 105px;
+    height: 4rem;
   }
 
   .icon button{
@@ -482,7 +482,7 @@ form button:hover{
 
   .cx-botoes{
     margin-top: 0px;
-    height: 105px;
+    height: 4rem;
     width: 100%;
     flex-direction: row;
     justify-content: space-around;
@@ -501,33 +501,37 @@ form button:hover{
   .cx-home{
     flex-direction: column;
     height: auto;
-    margin-top: 105px;
+    margin-top: 3rem;
     width: 99vw;
   }
 
   .img-home img{
-    margin: 0px;
-    margin-top: 30px;
-    width: 200px;
-    height: 200px;
+    margin: 0rem;
+    margin-top: 2.875rem;
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  
+  .text-home p{
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+    padding: 0 5%;
   }
 
-  .text-home{
-    width: 100%;
-  }
-
-  .text-home p, .text-home h1{
-    width: 100%;
+  .text-home h1{
+    margin-bottom: -0.5rem;
+    width: 99.5%;
     text-align: center;
   }
 
   .text-home h1, .text-home h1 span{
-    font-size: 38px;
+    font-size: 2rem;
   }
 
   .icons-home{
     width: 99%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
     justify-content: space-evenly;
   }
 }
