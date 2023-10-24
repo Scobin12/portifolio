@@ -117,7 +117,7 @@ function nextSlide() {
 }
 
 
-
+//slider de imagens projeto
 const slider = document.querySelector('.slider');
 const sliderContent = document.querySelector('.slider-content');
 const prevButton = document.getElementById('prev');
