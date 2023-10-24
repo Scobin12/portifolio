@@ -87,7 +87,7 @@ function changeText(newText) {
 
 function resetText() {
   const pElement = document.getElementById('changeable-text');
-  pElement.innerText = '<!-- passe o mouse no card para mais informações -->';
+  pElement.innerText = '<!-- selecione o card para mais informações -->';
 }
 
 

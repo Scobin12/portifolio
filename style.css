@@ -566,8 +566,8 @@ form button:hover{
 
   .text-card{
     margin-bottom: 1rem;
-    padding: 0.625rem;
-    width: 92vw;
+    padding: 20px;
+    width: 88vw;
     height: 11em;
     font-size: 1.2rem;
     text-align: center;
