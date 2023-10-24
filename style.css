@@ -548,6 +548,19 @@ form button:hover{
     width: 99vw;
   }
 
+  .card {
+    width: 18rem;
+  }
+
+  .card img{
+    width: 17rem;
+  }
+
+  .btn{
+    display: none;
+  }
+
+
 
   /* conhecimento mobile */
   .conhecimento{

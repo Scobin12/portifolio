@@ -118,34 +118,101 @@ function nextSlide() {
 
 
 //slider de imagens projeto
-const slider = document.querySelector('.slider');
-const sliderContent = document.querySelector('.slider-content');
-const prevButton = document.getElementById('prev');
-const nextButton = document.getElementById('next');
-const cardWidth = 560; // Largura de cada card
-const cardsToShow = 2; // Quantidade de cartões visíveis
-let position = 0; // Posição inicial
+if(innerWidth > 450){
+  const slider = document.querySelector('.slider');
+    const sliderContent = document.querySelector('.slider-content');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    const cardWidth = 560; // Largura de cada card
+    const cardsToShow = 2; // Quantidade de cartões visíveis
+    let position = 0; // Posição inicial
 
-prevButton.addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        position += cardWidth;
-    } else {
-        // Loop de volta ao último conjunto de cartões
-        currentIndex = 1; // Número total de cartões - 1
-        position = -currentIndex * cardWidth;
-    }
-    sliderContent.style.transform = `translateX(${position}px)`;
-});
+    // Inicialize o Hammer.js no elemento do slider
+    const hammertime = new Hammer(sliderContent);
 
-nextButton.addEventListener('click', () => {
-    if (currentIndex < 3 - cardsToShow) { // Total de cartões - cartões visíveis
-        currentIndex++;
-        position -= cardWidth;
-    } else {
-        // Loop de volta ao primeiro conjunto de cartões
-        currentIndex = 0;
-        position = 0;
+    hammertime.on('swipeleft', () => {
+        // Deslize para a esquerda (próximo)
+        nextSlide();
+    });
+
+    hammertime.on('swiperight', () => {
+        // Deslize para a direita (anterior)
+        prevSlide();
+    });
+
+    function prevSlide() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            position += cardWidth;
+        } else {
+            // Loop de volta ao último conjunto de cartões
+            currentIndex = 1; // Número total de cartões - 1
+            position = -currentIndex * cardWidth;
+        }
+        sliderContent.style.transform = `translateX(${position}px)`;
     }
-    sliderContent.style.transform = `translateX(${position}px)`;
-});
+
+    function nextSlide() {
+        if (currentIndex < 3 - cardsToShow) {
+            currentIndex++;
+            position -= cardWidth;
+        } else {
+            // Loop de volta ao primeiro conjunto de cartões
+            currentIndex = 0;
+            position = 0;
+        }
+        sliderContent.style.transform = `translateX(${position}px)`;
+    }
+
+    prevButton.addEventListener('click', prevSlide);
+    nextButton.addEventListener('click', nextSlide);
+
+}else {
+    const slider = document.querySelector('.slider');
+    const sliderContent = document.querySelector('.slider-content');
+    const prevButton = document.getElementById('prev');
+    const nextButton = document.getElementById('next');
+    const cardWidth = 385; // Largura de cada card
+    const cardsToShow = 1; // Quantidade de cartões visíveis
+    let position = 0; // Posição inicial
+
+    // Inicialize o Hammer.js no elemento do slider
+    const hammertime = new Hammer(sliderContent);
+
+    hammertime.on('swipeleft', () => {
+        // Deslize para a esquerda (próximo)
+        nextSlide();
+    });
+
+    hammertime.on('swiperight', () => {
+        // Deslize para a direita (anterior)
+        prevSlide();
+    });
+
+    function prevSlide() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            position += cardWidth;
+        } else {
+            // Loop de volta ao último conjunto de cartões
+            currentIndex = 1; // Número total de cartões - 1
+            position = -currentIndex * cardWidth;
+        }
+        sliderContent.style.transform = `translateX(${position}px)`;
+    }
+
+    function nextSlide() {
+        if (currentIndex < 3 - cardsToShow) {
+            currentIndex++;
+            position -= cardWidth;
+        } else {
+            // Loop de volta ao primeiro conjunto de cartões
+            currentIndex = 0;
+            position = 0;
+        }
+        sliderContent.style.transform = `translateX(${position}px)`;
+    }
+
+    prevButton.addEventListener('click', prevSlide);
+    nextButton.addEventListener('click', nextSlide);
+}
