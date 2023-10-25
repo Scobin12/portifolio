@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   
+    <link rel="stylesheet" href="css/style.css">
+
     <link rel="icon" href="img/portfolio.png">
     <title>Portfólio Scobin</title>
     
@@ -79,38 +82,63 @@
           <section id="projetos" class="hidden">
             <div class="div-projetos">
               <h1>Projetos</h1>
-              <div class="cx-projetos">
-                <button class="btn" id="prev">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 30 30" fill="none">
-                    <path d="M18.75 22.5L11.25 15L18.75 7.5" stroke="#626F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-                </button>
-    
-                <div class="slider">
-                <div class="slider-content">
-                    <div class="card">
-                      <a href="https://cartao-visita-scobin.netlify.app" target="_blank">
-                        <img src="/img/cartao de visita.png" alt="img cartão de visita scobin">
-                      </a>
-                      <h3>Cartão de Visita Scobin</h3>
-                      <p>O cartão de visita digital é uma página web com um design minimalista e atraente, que agrega informações cruciais. <br><br>
+              
+              <div class="cx-cards">
 
-                        Ele oferece ao cliente uma visão abrangente do profissional que está buscando, reunindo tudo em um único local para facilitar a busca. </p>
+                <div class="slide-container swiper">
+                  <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+
+                      <div class="card swiper-slide">
+
+                        <div class="image-content">
+                          <div class="card-image">
+                            <a href="https://cartao-visita-scobin.netlify.app" target="_blank">
+                              <img class="card-img" src="/img/cartao de visita.png" alt="img cartão de visita scobin">
+                            </a>
+                          </div>
+                        </div>
+
+                        <div class="card-content">
+                          <h2 class="name">Cartão de Visita Scobin</h2>
+                          <p class="description">O cartão de visita digital é uma página web com um design minimalista e atraente, que agrega informações cruciais. <br><br>
+  
+                          Ele oferece ao cliente uma visão abrangente do profissional que está buscando, reunindo tudo em um único local para facilitar a busca. </p>
+                          
+                          <button class="button"><a target='_blank' href="https://cartao-visita-scobin.netlify.app">Visitar site</a></button>
+                        </div>
+      
+                      </div>
+
+                      <div class="card card-ft-projeto swiper-slide">
+                        
+                        <p>Próximo projeto</p>
+      
+                      </div>
+
+                      <div class="card card-ft-projeto swiper-slide">
+                        
+                        <p>Próximo projeto</p>
+      
+                      </div>
+
+                      <div class="card card-ft-projeto swiper-slide">
+                        
+                        <p>Próximo projeto</p>
+      
+                      </div>
+
                     </div>
+                  </div>
 
-                    <div class="card projeto-ft">Futuro projeto</div>
-                    <div class="card projeto-ft">Futuro projeto</div>
-                    
+                  <div class="bt swiper-button-next"></div>
+                  <div class="bt swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+
                 </div>
+              </div>
             </div>
-            
-            <button class="btn" id="next">
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 30 30" fill="none">
-                <path d="M11.25 22.5L18.75 15L11.25 7.5" stroke="#626F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-            
-            </div>
+
           </section>
         
           <section id="conhecimento" class="hidden">
@@ -229,7 +257,9 @@
         </div>
     </div>
 
-   <script src="script.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  
+  <script src="js/script.js"></script> 
   
 </body>
 </html>
