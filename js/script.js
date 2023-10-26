@@ -90,8 +90,6 @@ for (let i = 0; i < cxCardProjeto.length; i++) {
 
 }
 
-
-
 //mudando texto do conhecimento
 function changeText(newText) {
   const pElement = document.getElementById('changeable-text');

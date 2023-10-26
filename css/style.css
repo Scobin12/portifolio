@@ -1,516 +1,525 @@
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-  }  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}  
 
-  .hidden {
-    display: none;
-  }
+.hidden {
+  display: none;
+}
 /* ---------- Class Barra Lateral ------------*/
 .cx-principal{
-    display: flex;
-  }
-  
-  .barra-lateral{
-    width: 106px;
-    height: 100vh;
-    flex-shrink: 0;
-    background: #007871;
-  }
-  
-  .icon button{
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 106px;
-    height: 105px;
-    flex-shrink: 0;
-    background: #00504B;
-  }
-  
-  .cx-botoes{
-    margin-top: 50%;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  .cx-botoes button{
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    cursor: pointer;
-    background: none;
-  
-  }
-  
-  .cx-botoes button img{
-    padding: 5px;
-  }
-  
-  .ativo img{
-    transition-delay: 0.1s;
-    border-right: solid #fff 3px;
-    border-radius: 8px;
-    margin-right: -3px;
-  }
-  
-  /* ----------- Class Página Home ------------- */
-  
-  .cx-home{
-    width: calc(100vw - 5.7rem);
-    height: 99vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .img-home img{
-    margin-right: 3.75rem;
-    width: 18.0625rem;
-    height: 18.0625rem;
-    flex-shrink: 0;
-    border-radius: 18.0625rem;
-    border: 0.3125rem solid #007871;
-  }
-  
-  .text-home p{
-    width: 35.0625rem;
-    color: #626F7F;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .text-home h1{
-    margin-top: 1.5625rem;
-    margin-bottom: 1.5625rem;
-    width: 35.0625rem;
-    color: #262626;
-    font-family: Inter;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .text-home h1 span{
-    color: #007871;
-    font-family: Inter;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  
-  .icons-home{
-    margin-top: 1.5625rem;
-    display: flex;
-    width: 12.4375rem;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 0rem 1.625rem;
-    flex-wrap: wrap;
-  }
-  
-  .icons-home button{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 0.625rem;
-    background: #e9e9e9;
-    width: 3rem;
-    height: 3rem;
-    flex-shrink: 0;
-  }
-  
-  .icons-home button:hover{
-    background: #d4d4d4;
-  }
+  display: flex;
+}
+
+.barra-lateral{
+  width: 106px;
+  height: 100vh;
+  flex-shrink: 0;
+  background: #007871;
+}
+
+.icon button{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 105px;
+  flex-shrink: 0;
+  background: #00504B;
+}
+
+.cx-botoes{
+  margin-top: 50%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cx-botoes button{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  cursor: pointer;
+  background: none;
+
+}
+
+.cx-botoes button img{
+  padding: 5px;
+}
+
+.ativo img{
+  transition-delay: 0.1s;
+  border-right: solid #fff 3px;
+  border-radius: 8px;
+  margin-right: -3px;
+}
+
+/* ----------- Class Página Home ------------- */
+
+.cx-home{
+  width: calc(100vw - 5.7rem);
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-home img{
+  margin-right: 3.75rem;
+  width: 18.0625rem;
+  height: 18.0625rem;
+  flex-shrink: 0;
+  border-radius: 18.0625rem;
+  border: 0.3125rem solid #007871;
+}
+
+.text-home p{
+  width: 35.0625rem;
+  color: #626F7F;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-home h1{
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  width: 35.0625rem;
+  color: #262626;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-home h1 span{
+  color: #007871;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icons-home{
+  margin-top: 1.5625rem;
+  display: flex;
+  width: 12.4375rem;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0rem 1.625rem;
+  flex-wrap: wrap;
+}
+
+.icons-home button{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.625rem;
+  background: #e9e9e9;
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+}
+
+.icons-home button:hover{
+  background: #d4d4d4;
+}
 
 /* --------- Class Página Projetos -------- */
 
 .div-projetos{
-  border: solid 2px rgba(0, 0, 0, 0);
-  width: calc(100vw - 5.7rem);
-  height: 99vh;
+border: solid 2px rgba(0, 0, 0, 0);
+width: calc(100vw - 5.7rem);
+height: 99vh;
 }
 
 .div-projetos h1{
-  margin-top: 3vh;
-  margin-bottom: 0rem;
-  color: #007871;
-  text-align: center;
-  font-family: Inter;
-  font-size: 72px;
-  font-style: italic;
-  font-weight: 500;
-  line-height: normal;
+margin-top: 3vh;
+margin-bottom: 0rem;
+color: #007871;
+text-align: center;
+font-family: Inter;
+font-size: 72px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
 }
 
 .cx-cards{
-  min-height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: centerd;
+min-height: 80vh;
+display: flex;
+align-items: center;
+justify-content: centerd;
 }
 
 .slide-container{
-  max-width: 1120px;
-  width: 100%;
-  padding: 40px 40px;
+max-width: 1120px;
+width: 100%;
+padding: 40px 40px;
 }
 
 .slide-content{
-  margin: 0 40px;
-  padding: 6px;
-  overflow: hidden;
-  margin-bottom: -10px;
+margin: 0 40px;
+padding: 6px;
+overflow: hidden;
+margin-bottom: -10px;
 }
 
 .card{
-  border-radius: 25px;
-  margin: -4px;
-  border: solid 3px #007871;
+border-radius: 25px;
+margin: -4px;
+border: solid 3px #007871;
 }
 
 .image-content, .card-content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 5px 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px 40px;
 }
 
 .image-content{
-  row-gap: 5px;
+row-gap: 5px;
 }
 
 .card-image{
-  margin-top: 10px;
-  margin-bottom: -10px;
-  position: relative;
-  height: 150px;
-  padding: 3px;
+margin-top: 10px;
+margin-bottom: -10px;
+position: relative;
+height: 150px;
+padding: 3px;
 }
 
 .card-image .card-img{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px;
-  border: solid 3px #007871;
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 20px;
+border: solid 3px #007871;
 }
 
 .name{
-  text-align: center;
-  color: #007871;
-  border-bottom: 1px dashed #d4d4d4;
-  font-size: 32px;
-  font-weight: 500;
-  font-style: italic;
-  line-height: normal;
+text-align: center;
+color: #007871;
+border-bottom: 1px dashed #d4d4d4;
+font-size: 32px;
+font-weight: 500;
+font-style: italic;
+line-height: normal;
 }
 
 .description, .card-ft-projeto p{
-  color: #626F7F;
-  font-family: Inter;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
+color: #626F7F;
+font-family: Inter;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+line-height: normal;
 }
 
 .button{
-  border: none;
-  font-size: 16px;
-  color: #FFF;
-  padding: 8px 16px;
-  background-color: #007871;
-  border-radius: 6px;
-  margin: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+border: none;
+font-size: 16px;
+color: #FFF;
+padding: 8px 16px;
+background-color: #007871;
+border-radius: 6px;
+margin: 14px;
+cursor: pointer;
+transition: all 0.3s ease;
 }
 
 .button:hover{
-  background: #00524e;
+background: #00524e;
 }
 
 .button a{
-  color: #FFF;
-  text-decoration: none;
+color: #FFF;
+text-decoration: none;
 }
 
 .card-ft-projeto{
-  height: 510px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+height: 510px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .swiper-navBtn{
-  color: #007871;
-  transition: color 0.3s ease;
+color: #007871;
+transition: color 0.3s ease;
 }
 
 .swiper-navBtn{
-  color: #00524e;
+color: #00524e;
 }
 
 .swiper-navBtn::before,
 .swiper-navBtn::after{
-  font-size: 40px;
+font-size: 40px;
 }
 
 .swiper-button-next{
-  right: 0;
+right: 0;
 }
 
 .swiper-button-prev{
-  left: 0;
+left: 0;
 }
 
 .swiper-pagination-bullet{
-  background-color: #007871;
-  opacity: 1;
+background-color: #007871;
+opacity: 1;
 }
 
 .swiper-pagination-bullet-active{
-  background-color: #00524e;
-  
+background-color: #00524e;
+
 }
 /* ------------ Class Página Conhecimento -------- */
 
 .conhecimento{
-  width: calc(100vw - 5.7rem);
-  height: 99vh;
-  display: flex;
-  justify-content: space-between;
+width: calc(100vw - 5.7rem);
+height: 99vh;
+display: flex;
+justify-content: space-between;
 }
 
 .text-conhecimento, .cards-conhecimento{
-  width: 50%;
+width: 50%;
 }
 
 .text-conhecimento{
-  display: grid;
-  justify-items: center;
+display: grid;
+justify-items: center;
 }
 
 .text-conhecimento h1{
-  margin-top: 22.4vh;
-  color: #007871;
-  font-family: Inter;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 500;
-  line-height: normal;
+margin-top: 22.4vh;
+color: #007871;
+font-family: Inter;
+font-size: 4rem;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
 }
 
 .text-card{
-  margin-top: -1.875rem;
-  display: flex;
-  width: 25.25rem;
-  height: 14.1875rem;
-  flex-shrink: 0;
-  color: #626F7F;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: 500;
-  line-height: 1.5;
+margin-top: -1.875rem;
+display: flex;
+width: 25.25rem;
+height: 14.1875rem;
+flex-shrink: 0;
+color: #626F7F;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: italic;
+font-weight: 500;
+line-height: 1.5;
 }
 
 .cards-conhecimento{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .box-cards{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 7.8125rem);
-  gap: 1.25rem;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 7.8125rem);
+gap: 1.25rem;
 }
 
 .box-cards .cards{
-  padding: 1.25rem;
-  text-align: center;
-  flex-shrink: 0;
-  border-radius: 0.625rem;
-  border: 0.1875rem solid transparent;
-  background: #e9e9e9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+padding: 1.25rem;
+text-align: center;
+flex-shrink: 0;
+border-radius: 0.625rem;
+border: 0.1875rem solid transparent;
+background: #e9e9e9;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .box-cards .cards:hover{
-  border: 0.1875rem solid #007871;
-  cursor: pointer;
+border: 0.1875rem solid #007871;
+cursor: pointer;
 }
 
 /* ------------ pagina de contato ---------- */
 .contato{
-  border: solid transparent;
-  width: calc(100vw - 5.7rem);
-  height: 99vh;
+border: solid transparent;
+width: calc(100vw - 5.7rem);
+height: 99vh;
 }
 
 .contato h1{ 
-  margin-top: 1.3125rem;
-  margin-bottom: 1.875rem;
-  color: #007871;
-  text-align: center;
-  font-family: Inter;
-  font-size: 4rem;
-  font-style: italic;
-  font-weight: 500;
-  line-height: normal;
+margin-top: 1.3125rem;
+margin-bottom: 1.875rem;
+color: #007871;
+text-align: center;
+font-family: Inter;
+font-size: 4rem;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
 }
 
 .cx-contato{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70vh;
 }
 
 .text-contato, form{
-  width: 50%;
-  height: 500px;
-  display: grid;
-  justify-content: center;
+width: 50%;
+height: 500px;
+display: grid;
+justify-content: center;
+}
+
+form{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .cx-texto{
-  width: 28.4375rem;
-  height: 18.4375rem;
-  flex-shrink: 0;
-  color: #626F7F;
-  font-family: Inter;
-  font-size: 1.3rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+width: 28.4375rem;
+height: 18.4375rem;
+flex-shrink: 0;
+color: #626F7F;
+font-family: Inter;
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .nome, .email{
-  padding-left: 0.625rem;
-  width: 28.25rem;
-  height: 2.2rem;
-  flex-shrink: 0;
-  border-radius: 0.625rem;
-  border: 0.125rem solid #007871;
-  background-color: #e9e9e9;
+width: 28.25rem;
+height: 2.2rem;
+padding-left: 0.625rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+border: 0.125rem solid #007871;
+background-color: #e9e9e9;
 }
 
 .mensagem{
-  padding-top: 0.625rem;
-  vertical-align: top;
-  padding-left: 0.625rem;
-  width: 28.25rem;
-  height: 12.2rem;
-  flex-shrink: 0;
-  border-radius: 0.625rem;
-  border: 0.125rem solid #007871;
-  background-color: #e9e9e9;
+padding-top: 0.625rem;
+vertical-align: top;
+padding-left: 0.625rem;
+width: 28.25rem;
+height: 12.2rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+border: 0.125rem solid #007871;
+background-color: #e9e9e9;
 }
 
 input{
-  resize: none;
-  color: #363636;
-  font-family: Inter;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+resize: none;
+color: #363636;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 textarea{
-  resize: none;
-  color: #363636;
-  font-family: Inter;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+resize: none;
+color: #363636;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 textarea:focus, input:focus{
-  box-shadow: 0 0 0 0;
-  outline: 0;
-  resize: none;
-  color: #363636;
-  font-family: Inter;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+box-shadow: 0 0 0 0;
+outline: 0;
+resize: none;
+color: #363636;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .cx-bt{
-  display: flex;
-  justify-content: end;
+width: 80%;
+display: flex;
+justify-content: end;
 }
 
 form button{
-  width: 10.875rem;
-  height: 3.4375rem;
-  flex-shrink: 0;
-  border-radius: 0.625rem;
-  border: 0.1875rem solid #007871;
-  background: #007871;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  cursor: pointer;
+width: 10.875rem;
+height: 3.4375rem;
+flex-shrink: 0;
+border-radius: 0.625rem;
+border: 0.1875rem solid #007871;
+background: #007871;
+color: #FFF;
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+cursor: pointer;
 }
 
 form button:hover{
-  background: none;
-  color: #007871;
+background: none;
+color: #007871;
 }
 
 .rodape{
-  margin-right: 0.3rem;
-  margin-bottom: 0.2rem;
-  height: 2.5rem;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+margin-right: 0.3rem;
+margin-bottom: 0.2rem;
+height: 2.5rem;
+position: absolute;
+right: 0;
+bottom: 0;
 }
 
 .rodape h4{
-  color: #626F7F;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+color: #626F7F;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .rodape a{
-  text-decoration: none;
-  color: #626F7F;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+text-decoration: none;
+color: #626F7F;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 
@@ -518,142 +527,203 @@ form button:hover{
 /* mobile */
 @media (max-width: 450px) {
 
-  /*barra lateral*/
+/*barra lateral*/
 
-  .barra-lateral{
-    position: fixed;
-    display: flex;
-    width: 100vw;
-    height: 4rem;
-  }
+.barra-lateral{
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 4rem;
+}
 
-  .icon button{
-    display: none;
-  }
+.icon button{
+  display: none;
+}
 
-  .cx-botoes{
-    margin-top: 0px;
-    height: 4rem;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.cx-botoes{
+  margin-top: 0px;
+  height: 4rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  .ativo img{
-    border-bottom: solid #fff 3px;
-    border-right: none;
-    margin-bottom: -3px;
-    margin-right: 0px;
-    border-right: none;
-  }
+.ativo img{
+  border-bottom: solid #fff 3px;
+  border-right: none;
+  margin-bottom: -3px;
+  margin-right: 0px;
+  border-right: none;
+}
 
-  /* mobile home */
+/* mobile home */
 
-  .cx-home{
-    flex-direction: column;
-    height: 90vh;
-    margin-top: 3.6rem;
-    width: 99vw;
-  }
+.cx-home{
+  flex-direction: column;
+  height: 90vh;
+  margin-top: 3.6rem;
+  width: 99vw;
+}
 
-  .img-home img{
-    margin: 0rem;
-    width: 10.5rem;
-    height: 10.5rem;
-  }
-  
-  .text-home p{
-    font-size: 1.1rem;
-    width: 90%;
-    text-align: center;
-    padding: 0 5%;
-  }
+.img-home img{
+  margin: 0rem;
+  width: 10.5rem;
+  height: 10.5rem;
+}
 
-  .text-home h1{
-    width: 99.5%;
-    text-align: center;
-  }
+.text-home p{
+  font-size: 1.1rem;
+  width: 90%;
+  text-align: center;
+  padding: 0 5%;
+}
 
-  .text-home h1, .text-home h1 span{
-    font-size: 2.2rem;
-  }
+.text-home h1{
+  width: 99.5%;
+  text-align: center;
+}
 
-  .icons-home{
-    width: 99%;
-    margin-top: 2.5rem;
-    justify-content: space-evenly;
-  }
+.text-home h1, .text-home h1 span{
+  font-size: 2.2rem;
+}
 
-  .icons-home button{
-    background: #d4d4d4;
-  }
+.icons-home{
+  width: 99%;
+  margin-top: 2.5rem;
+  justify-content: space-evenly;
+}
+
+.icons-home button{
+  background: #d4d4d4;
+}
 
 
-  /* mobile projetos */
-  .div-projetos{
-    height: 90vh;
-    margin-top: 3.6rem;
-    width: 99vw;
-  }
+/* mobile projetos */
+.div-projetos{
+  height: 90vh;
+  margin-top: 3.6rem;
+  width: 99vw;
+}
 
-  .div-projetos h1{
-    margin-bottom: -1.25rem;
-    font-size: 2.5rem;
-  }
+.div-projetos h1{
+  margin-bottom: -1.25rem;
+  font-size: 2.5rem;
+}
 
-  .name{
-    font-size: 28px;
-    margin-bottom: 0.3125rem;
-  }
+.name{
+  font-size: 28px;
+  margin-bottom: 0.3125rem;
+}
 
-  .description, .card-ft-projeto p{
-    font-size: 14px;
-  }
+.description, .card-ft-projeto p{
+  font-size: 14px;
+}
 
-  .slide-content{
-    margin: 0 0.625rem;
-  }
+.slide-content{
+  margin: 0 0.625rem;
+}
 
-  .swiper-navBtn{
-    display: none;
-  }
+.swiper-navBtn{
+  display: none;
+}
 
-  /* conhecimento mobile */
-  .conhecimento{
-    flex-direction: column;
-    height: auto;
-    margin-top: 3rem;
-    width: 99vw;
-  }
+/* conhecimento mobile */
+.conhecimento{
+  flex-direction: column;
+  height: auto;
+  margin-top: 3rem;
+  width: 99vw;
+}
 
-  .text-conhecimento h1{
-    margin-top: 2.5rem;
-    font-size: 2.5rem;
-    text-align: center;
-    width: 98vw;
-  }
+.text-conhecimento h1{
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 98vw;
+}
 
-  .text-card{
-    margin-bottom: 1rem;
-    padding: 20px;
-    width: 88vw;
-    height: 11em;
-    font-size: 1.2rem;
-    text-align: center;
-  }
+.text-card{
+  margin-bottom: 1rem;
+  padding: 20px;
+  width: 88vw;
+  height: 11em;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
-  .cards-conhecimento{
-    width: 98vw;
-    height: auto;
-  }
+.cards-conhecimento{
+  width: 98vw;
+  height: auto;
+}
 
-  .box-cards{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 7.8125rem);
-    margin-bottom: 1.25rem;
-  }
+.box-cards{
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 7.8125rem);
+  margin-bottom: 1.25rem;
+}
 
-  .box-cards .estudando04,.box-cards .estudando05,.box-cards .estudando06,.box-cards .estudando07{
-    display: none;
-  }
+.box-cards .estudando04,.box-cards .estudando05,.box-cards .estudando06,.box-cards .estudando07{
+  display: none;
+}
+
+/*contato mobile*/
+.contato{
+  flex-direction: column;
+  height: auto;
+  margin-top: 3rem;
+  width: 99vw;
+}
+
+.contato h1{
+  margin-top: 2.5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 98vw;
+}
+
+.cx-contato{
+  flex-direction: column;
+  height: auto;
+}
+
+.text-contato .icons-home{
+  display: none;
+}
+
+.text-contato, form{
+  width: 100vw;
+}
+
+.cx-texto{
+  width: 90vw;
+  font-size: 1.2rem;
+}
+
+form{
+  margin-top: -8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, 
+textarea, 
+textarea:focus, 
+input:focus,{
+  font-size: 1rem
+}
+
+.nome, .email, .mensagem{
+  width: 17rem;
+}
+
+.cx-bt{
+  justify-content: center;
+}
+
+.rodape{
+  position: relative;
+  text-align: center;
+}
+
 }
