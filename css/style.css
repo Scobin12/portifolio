@@ -695,11 +695,15 @@ line-height: normal;
 }
 
 .cx-texto{
-  width: 90vw;
+  text-align: center;
+  width: 98vw;
+  padding: 20px;
   font-size: 1.2rem;
 }
 
 form{
+  border: solid red;
+  width: 98vw;
   margin-top: -8rem;
   display: flex;
   flex-direction: column;
@@ -709,7 +713,7 @@ form{
 input, 
 textarea, 
 textarea:focus, 
-input:focus,{
+input:focus{
   font-size: 1rem
 }
 
