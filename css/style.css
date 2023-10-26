@@ -397,7 +397,6 @@ justify-content: center;
 }
 
 form{
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -704,7 +703,7 @@ line-height: normal;
 
 form{
   width: 98vw;
-  margin-top: -15vh;
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -719,6 +718,7 @@ input:focus{
 
 .nome, .email, .mensagem{
   width: 17rem;
+  width: 90vw;
 }
 
 .cx-bt{
