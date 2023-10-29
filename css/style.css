@@ -9,11 +9,9 @@ body {
   display: none;
 }
 /* ---------- Class Barra Lateral ------------*/
-.cx-principal{
-  display: flex;
-}
 
 .barra-lateral{
+  position: absolute;
   width: 106px;
   height: 100vh;
   flex-shrink: 0;
@@ -65,7 +63,9 @@ body {
 /* ----------- Class Página Home ------------- */
 
 .cx-home{
-  width: calc(100vw - 5.7rem);
+  position: absolute;
+  right: 0;
+  width: 90%;
   height: 99vh;
   display: flex;
   align-items: center;
@@ -142,122 +142,124 @@ body {
 /* --------- Class Página Projetos -------- */
 
 .div-projetos{
-border: solid 2px rgba(0, 0, 0, 0);
-width: calc(100vw - 5.7rem);
-height: 99vh;
+  position: absolute;
+  right: 0;
+  width: 90%;
+  border: solid 2px rgba(0, 0, 0, 0);
+  height: 99vh;
 }
 
 .div-projetos h1{
-margin-top: 3vh;
-margin-bottom: 0rem;
-color: #007871;
-text-align: center;
-font-family: Inter;
-font-size: 72px;
-font-style: italic;
-font-weight: 500;
-line-height: normal;
+  margin-top: 3vh;
+  margin-bottom: 0rem;
+  color: #007871;
+  text-align: center;
+  font-family: Inter;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .cx-cards{
-min-height: 80vh;
-display: flex;
-align-items: center;
-justify-content: centerd;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: centerd;
 }
 
 .slide-container{
-max-width: 1120px;
-width: 100%;
-padding: 40px 40px;
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 40px;
 }
 
 .slide-content{
-margin: 0 40px;
-padding: 6px;
-padding-right: 12px;
-overflow: hidden;
-margin-bottom: -10px;
+  margin: 0 40px;
+  padding: 6px;
+  padding-right: 12px;
+  overflow: hidden;
+  margin-bottom: -10px;
 }
 
 .card{
-border-radius: 25px;
-margin: -4px;
-border: solid 3px #007871;
+  border-radius: 25px;
+  margin: -4px;
+  border: solid 3px #007871;
 }
 
 .image-content, .card-content{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 40px;
 }
 
 .image-content{
-row-gap: 5px;
+  row-gap: 5px;
 }
 
 .card-image{
-margin-top: 10px;
-margin-bottom: -10px;
-position: relative;
-height: 150px;
-padding: 3px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+  height: 150px;
+  padding: 3px;
 }
 
 .card-image .card-img{
-height: 100%;
-width: 100%;
-object-fit: cover;
-border-radius: 20px;
-border: solid 3px #007871;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: solid 3px #007871;
 }
 
 .name{
-text-align: center;
-color: #007871;
-border-bottom: 1px dashed #d4d4d4;
-font-size: 32px;
-font-weight: 500;
-font-style: italic;
-line-height: normal;
+  text-align: center;
+  color: #007871;
+  border-bottom: 1px dashed #d4d4d4;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: normal;
 }
 
 .description, .card-ft-projeto p{
-color: #626F7F;
-font-family: Inter;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-line-height: normal;
+  color: #626F7F;
+  font-family: Inter;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
 }
 
 .button{
-border: none;
-font-size: 16px;
-color: #FFF;
-padding: 8px 16px;
-background-color: #007871;
-border-radius: 6px;
-margin: 14px;
-cursor: pointer;
-transition: all 0.3s ease;
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #007871;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .button:hover{
-background: #00524e;
+  background: #00524e;
 }
 
 .button a{
-color: #FFF;
-text-decoration: none;
+  color: #FFF;
+  text-decoration: none;
 }
 
 .card-ft-projeto{
-height: 510px;
-display: flex;
-align-items: center;
-justify-content: center;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .swiper-navBtn{
@@ -294,7 +296,9 @@ background-color: #00524e;
 /* ------------ Class Página Conhecimento -------- */
 
 .conhecimento{
-width: calc(100vw - 5.7rem);
+  position: absolute;
+  right: 0;
+  width: 90%;
 height: 99vh;
 display: flex;
 justify-content: space-between;
@@ -334,6 +338,7 @@ line-height: 1.5;
 }
 
 .cards-conhecimento{
+padding: 0px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -366,13 +371,15 @@ cursor: pointer;
 /* ------------ pagina de contato ---------- */
 .contato{
 border: solid transparent;
-width: calc(100vw - 5.7rem);
+position: absolute;
+right: 0;
+width: 90%;
 height: 99vh;
 }
 
 .contato h1{ 
-margin-top: 1.3125rem;
-margin-bottom: 1.875rem;
+margin-top: 5vh;
+margin-bottom: 5vh;
 color: #007871;
 text-align: center;
 font-family: Inter;
@@ -389,7 +396,7 @@ align-items: center;
 height: 70vh;
 }
 
-.text-contato, form{
+.text-contato, form{  
 width: 50%;
 height: 500px;
 display: grid;
@@ -403,9 +410,9 @@ form{
   justify-content: space-around;
 }
 
-.cx-texto{
+.cx-texto{  
 width: 28.4375rem;
-height: 18.4375rem;
+height: 20.4375rem;
 flex-shrink: 0;
 color: #626F7F;
 font-family: Inter;
@@ -413,6 +420,10 @@ font-size: 1.3rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.cx-texto .icons-home{  
+  margin-top: 80px;
 }
 
 .nome, .email{
@@ -470,7 +481,7 @@ line-height: normal;
 }
 
 .cx-bt{
-width: 80%;
+width: 28.25rem;
 display: flex;
 justify-content: end;
 }
@@ -530,7 +541,7 @@ line-height: normal;
 /*barra lateral*/
 
 .barra-lateral{
-  position: fixed;
+  position: absolute;
   display: flex;
   width: 100vw;
   height: 4rem;
@@ -644,7 +655,8 @@ line-height: normal;
 
 .text-card{
   margin-bottom: 1rem;
-  padding: 20px;
+  height: auto;
+  padding: 0 20px;
   width: 88vw;
   height: 11em;
   font-size: 1.2rem;
@@ -675,11 +687,13 @@ line-height: normal;
 }
 
 .contato h1{
-  margin-top: 2.5rem;
-  margin-bottom: 0px;
   font-size: 2.5rem;
   text-align: center;
   width: 98vw;
+}
+
+.text-contato{
+  height: auto;
 }
 
 .cx-contato{
@@ -687,24 +701,20 @@ line-height: normal;
   height: auto;
 }
 
-.text-contato .icons-home{
+.cx-texto .icons-home{
   display: none;
-}
-
-.text-contato, form{
-  width: 100vw;
 }
 
 .cx-texto{
   text-align: center;
+  margin-top: 30px;
   width: 85vw;
-  padding: 25px;
+  height: auto;
   font-size: 1.2rem;
 }
 
 form{
   width: 98vw;
-  margin-top: -7.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
